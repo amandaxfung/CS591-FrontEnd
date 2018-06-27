@@ -1,0 +1,8 @@
+<p>
+  spotify works!
+</p>
+
+<button (click)= "getSpotifyInfo();">Display Artists</button>
+<div *ngFor="let item of results?.data">
+  <p>Output: {{item }}</p>
+</div>
